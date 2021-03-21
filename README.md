@@ -10,10 +10,18 @@ Progressive Web Apps (PWA) plugin for [Hexo](https://hexo.io/).
 - [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) - Users can add your site to mobile home screen
 - [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers/) - Make your site available offline
 
+
+## CHANGELOG
+
+- update README.md
+- update yarn.lock
+- update package.json
+
+
 ## Installation
 
 ```shell
-$ npm install --save hexo-pwa
+$ yarn add git+https://github.com/yupix/hexo-pwa.git
 ```
 
 ## Options
