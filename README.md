@@ -47,11 +47,11 @@ pwa:
     opts:
       networkTimeoutSeconds: 5
     routes:
-      - pattern: !!js/regexp /hm.baidu.com/
+      - pattern: /hm.baidu.com/
         strategy: networkOnly
-      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+      - pattern: /.*\.(js|css|jpg|jpeg|png|gif)$/
         strategy: cacheFirst
-      - pattern: !!js/regexp /\//
+      - pattern: /\//
         strategy: networkFirst
   priority: 5
 ```
