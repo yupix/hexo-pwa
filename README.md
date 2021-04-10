@@ -21,7 +21,8 @@ Progressive Web Apps (PWA) plugin for [Hexo](https://hexo.io/).
 ## Installation
 
 ```shell
-$ yarn add git+https://github.com/yupix/hexo-pwa.git
+# yarn
+$ yarn add @teampimcserver/hexo-pwa
 ```
 
 ## Options
